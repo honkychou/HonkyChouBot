@@ -37,11 +37,11 @@ var checkLink = function (url) {
 };
 
 var YD = new YoutubeMp3Downloader({
-    ffmpegPath: '/usr/bin/ffmpeg', // Where is the FFmpeg binary located?
-    outputPath: './', // Where should the downloaded and encoded files be stored?
-    youtubeVideoQuality: 'highest', // What video quality should be used?
-    queueParallelism: 2, // How many parallel downloads/encodes should be starte$
-    progressTimeout: 2000, // How long should be the interval of the progress repo$
+    ffmpegPath: '/usr/bin/ffmpeg',
+    outputPath: './',
+    youtubeVideoQuality: 'highest',
+    queueParallelism: 2,
+    progressTimeout: 30000,
 });
 
 var dao = new VideoBank();
