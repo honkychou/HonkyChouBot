@@ -1,5 +1,5 @@
 const sqlite3 = require('better-sqlite3');
-const db_path = './ssss';
+const db_path = './videoBank';
 
 var VideoBank = function () {
     // connect if not exist then create
